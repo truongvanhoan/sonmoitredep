@@ -1,0 +1,128 @@
+<header>
+  <h1>Son Môi Mộng Mơ</h1>
+  <p>Chạm tới sắc đẹp đích thực</p>
+</header>
+
+<nav>
+  <a href="#">Trang chủ</a>
+  <a href="#">Bộ sưu tập</a>
+  <a href="#">Khuyến mãi</a>
+  <a href="#">Liên hệ</a>
+</nav>
+
+<div class="hero"></div>
+
+<section class="product-section">
+  <h2>Sản phẩm nổi bật</h2>
+  <div class="product-list">
+    <div class="item">
+      <img src="https://via.placeholder.com/220x220?text=Son+Ruby" alt="Son Ruby">
+      <h3>Son Ruby Quyến Rũ</h3>
+      <p>Giá: 250.000₫</p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/220x220?text=Son+Pastel" alt="Son Pastel">
+      <h3>Son Hồng Pastel</h3>
+      <p>Giá: 230.000₫</p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/220x220?text=Son+Cam+Đào" alt="Son Cam Đào">
+      <h3>Son Cam Đào Năng Động</h3>
+      <p>Giá: 240.000₫</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 Son Môi Mộng Mơ | Son moi giup banj tre dep
+</footer>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fff0f5, #ffe4e1);
+  color: #333;
+}
+
+header {
+  background: #d81b60;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 18px;
+}
+
+nav {
+  background: #f06292;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1200x400?text=Banner+Son+Môi') no-repeat center;
+  background-size: cover;
+  height: 300px;
+}
+
+.product-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.product-section h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.item:hover {
+  transform: translateY(-5px);
+}
+.item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.item h3 {
+  color: #d81b60;
+}
+.item p {
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 50px;
+  background: #880e4f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
